@@ -108,7 +108,6 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	 */
 	private function setup_wp() {
 		if ( file_exists( "{$this->dir}/wp-config.php" ) ) {
-			echo 'WordPress already configured. Bailing.';
 			return;
 		}
 
