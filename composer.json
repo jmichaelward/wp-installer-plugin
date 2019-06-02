@@ -1,0 +1,20 @@
+{
+    "name": "jmichaelward/wp-installer-plugin",
+    "description": "Example Composer installer plugin.",
+    "type": "composer-plugin",
+    "extra": {
+        "class": "JMichaelWard\\WPInstaller\\Plugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "wp-cli/core-command": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "JMichaelWard\\WPInstaller\\": "src/"
+        }
+    }
+}
