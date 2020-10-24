@@ -2,7 +2,7 @@
 /**
  *
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @since   2019-06-01
  * @package WebDevStudios\WPInstaller
  */
@@ -17,7 +17,7 @@ use Composer\Plugin\PluginInterface;
 /**
  * Class Plugin
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @since   2019-06-01
  * @package WebDevStudios\WPInstaller
  */
@@ -44,7 +44,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	 * @param Composer    $composer
 	 * @param IOInterface $io
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-06-01
 	 * @return void
 	 */
@@ -56,7 +56,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	/**
 	 * Get Composer subscribed events.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-06-01
 	 * @return array
 	 */
@@ -90,7 +90,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	/**
 	 * Install the WordPress environment.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-06-01
 	 * @return void
 	 */
@@ -109,7 +109,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	/**
 	 * Install WordPress Core via WP-CLI.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-06-01
 	 */
 	private function install_wp_core() {
@@ -122,7 +122,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	 * Trigger the wp-init script if it's installed.
 	 *
 	 * @see https://github.com/jmichaelward/wp-setup.git
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-06-01
 	 * @return void
 	 */
