@@ -6,7 +6,7 @@
         "class": "JMichaelWard\\WPInstaller\\Plugin"
     },
     "require": {
-        "composer-plugin-api": "^1.1",
+        "composer-plugin-api": "^2",
         "wp-cli/core-command": "^2.0"
     },
     "require-dev": {
