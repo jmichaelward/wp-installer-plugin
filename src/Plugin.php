@@ -68,6 +68,26 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	}
 
 	/**
+	 * Run deactivation processes.
+	 *
+	 * @param Composer    $composer
+	 * @param IOInterface $io
+	 */
+	public function deactivate( Composer $composer, IOInterface $io ) {
+		return;
+	}
+
+	/**
+	 * Run uninstall processes.
+	 *
+	 * @param Composer    $composer
+	 * @param IOInterface $io
+	 */
+	public function uninstall( Composer $composer, IOInterface $io ) {
+		return;
+	}
+
+	/**
 	 * Install the WordPress environment.
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
