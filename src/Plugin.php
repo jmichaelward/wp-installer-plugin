@@ -63,7 +63,6 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 	public static function getSubscribedEvents() {
 		return [
 			'post-install-cmd' => [ 'install_wp_environment' ],
-			'post-update-cmd'  => [ 'install_wp_environment' ],
 		];
 	}
 
