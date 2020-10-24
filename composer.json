@@ -10,7 +10,7 @@
         "wp-cli/core-command": "^2.0"
     },
     "require-dev": {
-        "composer/composer": "^1.8"
+        "composer/composer": "^2"
     },
     "autoload": {
         "psr-4": {
